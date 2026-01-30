@@ -1,68 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="shared.css">
   <title>Company Profile | MatchFlow</title>
 </head>
 <body>
 
-    <header>
+<header>
   <nav>
     <h2>MatchFlow</h2>
-    <ul>
-        <li> <a href="candidate.html">Profile</a></li>
-        <li><a href="jobs.html">Jobs</a></li>
-    </ul>
+    <span>Company Menu</span>
   </nav>
 </header>
 
 <section class="container">
-  <div class="card">
-    <h2>Company Profile</h2>
 
-    <p><strong>Company:</strong> Tech Corp</p>
-    <p><strong>Industry:</strong> Software</p>
-    <p><strong>Open Positions:</strong> 4</p>
+  <!-- Company Header -->
+  <div class="company-header">
+
+    <div class="company-logo">
+      <span>LOGO</span>
+    </div>
+
+    <div class="company-info">
+      <h1>TechCorp</h1>
+      <p class="company-tagline">
+        Building scalable digital products for modern businesses.
+      </p>
+    </div>
+
   </div>
+
+  <!-- Company Description -->
+  <div class="card company-description">
+    <h2>About the Company</h2>
+    <p>
+      TechCorp is a technology-driven company focused on developing high-quality
+      software solutions. We work with distributed teams and value autonomy,
+      collaboration, and continuous learning.
+    </p>
+  </div>
+
+  <!-- Job Offers Section -->
+  <div class="company-jobs">
+
+    <div class="jobs-header">
+      <h2>Job Offers</h2>
+      <button class="btn btn-primary">Create Job Offer</button>
+    </div>
+
+    <div class="jobs-grid">
+
+      <div class="job-card">
+        <h3>Frontend Developer</h3>
+        <p>Remote · Full time</p>
+      </div>
+
+      <div class="job-card">
+        <h3>Backend Developer</h3>
+        <p>Remote · Full time</p>
+      </div>
+
+    </div>
+
+  </div>
+
 </section>
-
-<footer class="site-footer">
-  <div class="footer-container">
-
-    <div class="footer-brand">
-      <h3>MatchFlow</h3>
-      <p>Match-first hiring platform.<br>
-         Connecting talent and companies instantly.</p>
-    </div>
-
-    <div class="footer-links">
-      <h4>Product</h4>
-      <a href="#">How it works</a>
-      <a href="#">Pricing</a>
-      <a href="#">Security</a>
-    </div>
-
-    <div class="footer-links">
-      <h4>Company</h4>
-      <a href="#">About us</a>
-      <a href="#">Careers</a>
-      <a href="#">Contact</a>
-    </div>
-
-    <div class="footer-links">
-      <h4>Legal</h4>
-      <a href="#">Privacy policy</a>
-      <a href="#">Terms of service</a>
-    </div>
-
-  </div>
-
-  <div class="footer-bottom">
-    <p>© 2026 MatchFlow. All rights reserved.</p>
-  </div>
-</footer>
 
 </body>
 </html>
